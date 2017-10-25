@@ -2,8 +2,7 @@ def square_array(array)
   # your code here
 squarearray = []
   array.each do |number|
-    number = number**2
-    squarearray<<number
+    squarearray<<number**2
     return squarearray
   end
 end
