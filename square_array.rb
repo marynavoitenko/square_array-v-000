@@ -3,6 +3,6 @@ def square_array(array)
 squarearray = []
   array.each do |number|
     squarearray<<number**2
-    puts squarearray
+    puts "#{squarearray}"
   end
 end
