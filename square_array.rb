@@ -3,4 +3,3 @@ def square_array(array)
 
   array.each {|number| squarearray << number*number}
 end
-
