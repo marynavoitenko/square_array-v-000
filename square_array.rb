@@ -2,7 +2,7 @@ def square_array(array)
   # your code here
 squarearray = []
   array.each do |number|
-    squarearray<<number**2
-    puts "#{squarearray}"
+    number = number**2
+    squarearray<<number
   end
 end
