@@ -4,5 +4,6 @@ squarearray = []
   array.each do |number|
     number = number**2
     squarearray<<number
+    return squarearray
   end
 end
